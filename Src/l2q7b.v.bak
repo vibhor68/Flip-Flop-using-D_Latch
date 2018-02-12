@@ -1,0 +1,12 @@
+module dff2 (output reg op, input d,clk,rst);
+always@(clk)
+begin
+if (posedge clk)
+begin
+if (rst==1'b1) 
+op<=1'b0;
+else
+op<=d;
+end
+end
+endmodule

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab2/Q7/Synth/dff/dff2.xst" -ofn "C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab2/Q7/Synth/dff/dff2.syr" 

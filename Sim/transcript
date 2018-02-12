@@ -1,0 +1,24 @@
+# Reading C:/questasim_10.1d/tcl/vsim/pref.tcl 
+# //  Questa Sim
+# //  Version 10.1d win32 Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab2/Q7/Sim/l2q7b.mpf 
+# Loading project l2q7b
+# Compile of l2q7b.v was successful.
+# Compile of tb_l2q7b.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -wlf l2q7b.wlf -novopt tbff2
+# vsim -wlf l2q7b.wlf -novopt tbff2 
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab2/Q7/Sim/work.tbff2
+# Loading work.tbff2
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab2/Q7/Sim/work.dff2
+# Loading work.dff2
+add wave *
+run 250 
